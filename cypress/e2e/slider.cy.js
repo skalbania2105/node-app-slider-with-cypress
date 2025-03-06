@@ -1,4 +1,4 @@
-describe('Swiper Gallery Test', function () {
+describe('Opis slajdów', function () {
   it('Checks if second slide contains "United Kingdom"', function () {
     cy.visit('http://localhost:3000');
     cy.get('.swiper-button-next').click();
@@ -16,3 +16,4 @@ describe('Swiper Gallery Test', function () {
     cy.get('.swiper-slide-active').should('contain', 'Paris');
   });
 });
+
